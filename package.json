@@ -1,12 +1,12 @@
 {
-  "name": "vite-project",
+  "name": "witaas",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "predeploy": "npm run build",
+    "predeploy": "vite build",
     "deploy": "gh-pages -d dist",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
